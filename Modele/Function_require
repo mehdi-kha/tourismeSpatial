@@ -1,0 +1,32 @@
+Pour le module destinations :
+
+/*CROISIERE ET VOYAGEUR SONT DES POINTEURS SUR CROISIERE ET VOYAGEUR*/
+
+ DONE croisiere premiereCroisiere(); //Retourne la première croisière de la liste des croisières (4 croisières au total). Commencer par les croisières organisées.
+ DONE     croisiere nextCroisiere(); //Donne la croisière suivante de la liste des croisières
+
+ DONE     voyageur premierVoyageur(croisiere); //Retourne le premier voyageur de la liste des voyageurs associée à la croisière entrée en paramètres
+  DONE    voyageur nextVoyageur(); //Permet de passer au voyageur suivant quelque soit la liste de voyageurs
+
+ je sais pas comment FAIRE   destination[] choixDest(voyageur, croisiere); donne un tableau de taille 6 de destinations correspondant aux choix de destinations (voeux) du voyageur pour la croisiere en question
+
+ PAS ENCORE FAIT  int newContrainte(destination nomDestination); renvoie 1 si contrainte sur la destination "nomDestination" et 0 sinon
+
+ J'AI DU MAL A LE FAIRE   destination[] destVoyageur(voyageur voyageurTraite); permet d'avoir la liste des destinations effectivement attribuÃ©es pour le voyageur
+ DONE   int getZone(destination, CROISIERES); //Renvoie la zone d'une destination
+ PAS FAIT   destination getContrainte(destination currentDestination); //Renvoie la destination par laquelle on doit passer pour pouvoir aller à currentDestination
+
+ PAS FAIT   destinationLibre(croisiere,zone); //Renvoie une destination libre pour la croisiere et la zone en question
+
+PAS FAIT  supprDestAtt(voyageur, zone laZone); //Incrémentation du nombre de places disponibles pour la destination en zone laZone car suite à une contrainte sur cette zone, le voyageur n'ira pas à cette destination qui lui avait été attribuée 
+
+   
+
+DONE    int quota(croisiere nomCroisiere, destination nomDestination); donne le nombre de places restances pour une croisiere en particulier et une destination
+
+ PAS FAIT   void attribDest(voyageur nomVoyageur, destination nomDestination, int zone);
+voyageur 
+
+  PAS FAIT  contrainte getContrainte(currentDestination); //Liste de contraintes correspondant Ã  la destination currentDestination (il n'y a normalement qu'un Ã©lÃ©ment d'aprÃ¨s le sujet)
+
+ PAS FAIT   contrainte getNextContrainte(destContrainte); //Permet d'avoir la contrainte suivante
